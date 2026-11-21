@@ -7,7 +7,7 @@ export const dailyReport = inngest.createFunction(
     id: "daily-report",
     triggers: [
       {
-        cron: "*/1 * * * *",
+        cron: "*/5 * * * *",
       },
     ],
   },
